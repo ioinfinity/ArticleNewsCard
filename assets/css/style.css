@@ -8,16 +8,17 @@ a:hover { text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
 
-body { font-family: 'Open Sans', sans-serif; background-color: #efefef; }
 
 .section-padding {
-  padding:  30px 0;
+  padding:  0px 0;
 }
 
 .single-news-items {
   position: relative;
-  height: 445px;
+  height: 600px;
   overflow: hidden;
+  /* box-shadow: 0 0 20px #999; */
+  background-color: #efefef;
 }
 
 .news-img {
@@ -27,16 +28,16 @@ body { font-family: 'Open Sans', sans-serif; background-color: #efefef; }
   transition: .3s;
 }
 .news-bg-1 {
-  background-image: url("../img/city-skyline.jpeg");
+  background-image: url("https://www.icountry.com.tw/starcity/libs/bbapp/dynamic_screen_image_loader/css/img/pink_carriage/pink_carriage_1_1920.jpg");
 }
 .news-date {
   position: absolute;
-  right: 5%;
-  top: 5%;
-  height: 55px;
-  width: 55px;
+  left: 5%;
+  top: 4%;
+  height: 65px;
+  width: 65px;
   content: "";
-  background: #E74C3D;
+  background: #5bc0de;
   border-radius: 50%;
   text-align: center;
   line-height: 1.5rem;
@@ -46,6 +47,7 @@ body { font-family: 'Open Sans', sans-serif; background-color: #efefef; }
   text-transform: uppercase;
   font-size: 18px;
 }
+
 .news-date span {
   font-size: 12px;
 }
@@ -54,23 +56,39 @@ body { font-family: 'Open Sans', sans-serif; background-color: #efefef; }
   background: #fff;
   border: 1px solid #E7E7E7;
   border-top: none;
-  padding: 32px 30px;
+  padding: 15px 15px;
   color: #757575;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 200px;
+  height: 365px;
   transition: .2s;
 }
+
+
+
 .news-cat {
   position: absolute;
-  top: -32px;
-  left: -1px;
-  background-color: #E74C3D;
+  top: -230px;
+  left: 20px;
+  background-color: #5bc0de;
   color: #fff;
-  width: 94px;
-  padding: 6px 11px;
+  width: 50px;
+  padding: 5px 10px;
   text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.news-price {
+  position: absolute;
+  top: -32px;
+  right: -1px;
+  background-color: #5bc0de;
+  color: #fff;
+  width: 100px;
+  padding: 6px 6px;
+  text-align: right;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -81,12 +99,13 @@ body { font-family: 'Open Sans', sans-serif; background-color: #efefef; }
   margin-bottom: 12px;
 }
 .title-area h4 {
-  color: #E74C3D;
+  color: #5bc0de;
   font-weight: 400;
   font-size: 19px;
 }
 
 .news-meta {
+  text-align:center;
   background: #fff;
   font-size: 13px;
   color: #999A9F;
@@ -94,7 +113,9 @@ body { font-family: 'Open Sans', sans-serif; background-color: #efefef; }
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 0 30px 32px;
+  padding: 10px 10px 10px;
+  border: 1px solid #E7E7E7;
+  border-top: 0px solid #fff; 
 }
 .news-meta span:nth-child(1) {
   margin-right: 15px;
@@ -103,9 +124,9 @@ body { font-family: 'Open Sans', sans-serif; background-color: #efefef; }
 .news-text {
   line-height: 2.5rem;
   font-size: 13px;
-  opacity: 0;
-  visibility: hidden;
-  height: 0;
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  height: 350px;
   transition: .3s;
   z-index: 2;
 }
@@ -114,12 +135,15 @@ body { font-family: 'Open Sans', sans-serif; background-color: #efefef; }
 .single-news-items:hover {
   box-shadow: 0 0 20px #999;
 }
+/*
 .single-news-items:hover .news-img {
   transform: scale(1.15);
 }
+*/
+/*
 .single-news-items:hover .news-content {
-  height: 280px;
-}
+  height: 350px;
+}*/
 .single-news-items:hover .news-text {
   opacity: 1;
   visibility: visible;
