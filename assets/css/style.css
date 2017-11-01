@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
   background-image: url("https://www.icountry.com.tw/starcity/libs/bbapp/dynamic_screen_image_loader/css/img/pink_carriage/pink_carriage_1_1920.jpg");
 }
 .news-date {
+  opacity:0.88;
   position: absolute;
   left: 5%;
   top: 4%;
@@ -131,6 +132,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
 }
 
 .news-price {
+  opacity:0.88;
   position: absolute;
   height: 50px;
   top: -50px;
