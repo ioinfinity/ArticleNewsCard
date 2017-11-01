@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
   background: #5bc0de;
   border-radius: 50%;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
   color: #fff;
   font-weight: 700;
   padding: 11px;
@@ -111,6 +111,31 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
 }
 
 .title-area::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #d8cbcb;
+}
+
+.basket_coupon_list_selection {
+  overflow-y: auto;
+  height: 300px;
+}
+
+.basket_coupon_list_selection::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+.basket_coupon_list_selection::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #9a9a9a;
+}
+
+.basket_coupon_list_selection::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
