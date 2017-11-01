@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
 
 .title-area {
   overflow-y: auto;
-  height: 350px;
+  height: 300px;
 }
 
 .title-area::-webkit-scrollbar-track
