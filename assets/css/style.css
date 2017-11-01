@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
   background: #fff;
   border: 1px solid #E7E7E7;
   border-top: none;
-  padding: 15px 15px;
+  padding: 15px 10px;
   color: #757575;
   position: absolute;
   bottom: 0;
@@ -75,20 +75,21 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
-	background-color: #a99f9f;
+	background-color: #ffffff;
 }
 
 .product_table::-webkit-scrollbar
 {
 	width: 4px;
-	background-color: #9a9a9a;
+	height: 4px;
+	background-color: #fffdfd;
 }
 
 .product_table::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+	background-color: #d8cfcf;
 }
 
 .title-area {
@@ -100,7 +101,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
-	background-color: #a99f9f;
+	background-color: #ffffff;
 }
 
 .title-area::-webkit-scrollbar
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 15px; font-weight: 700; }
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+	background-color: #d8cbcb;
 }
 
 
